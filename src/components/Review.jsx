@@ -37,7 +37,7 @@ const Review = () => {
             <div className="item">
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="/public/brand/brand-1-1.png" alt="Brand Logo 1" />
+                  <img src="/brand/brand-1-1.png" alt="Brand Logo 1" />
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Review = () => {
             <div className="item">
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="/public/brand/brand-1-2.png" alt="Brand Logo 2" />
+                  <img src="/brand/brand-1-2.png" alt="Brand Logo 2" />
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Review = () => {
             <div className="item">
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="/public/brand/brand-1-3.png" alt="Brand Logo 3" />
+                  <img src="/brand/brand-1-3.png" alt="Brand Logo 3" />
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Review = () => {
             <div className="item">
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="/public/brand/brand-1-4.png" alt="Brand Logo 4" />
+                  <img src="/brand/brand-1-4.png" alt="Brand Logo 4" />
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Review = () => {
             <div className="item">
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="/public/brand/brand-1-5.png" alt="Brand Logo 5" />
+                  <img src="/brand/brand-1-5.png" alt="Brand Logo 5" />
                 </div>
               </div>
             </div>
