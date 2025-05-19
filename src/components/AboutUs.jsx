@@ -115,7 +115,7 @@ const AboutUs = () => {
                       <div className="col-xl-6">
                         <div className="about-two__tab-img">
                           <img
-                            src="/resources/about-two-tab-img-1.jpg"
+                            src="/Frame2.png"
                             alt=""
                           />
                         </div>
@@ -173,7 +173,7 @@ const AboutUs = () => {
                       <div className="col-xl-6">
                         <div className="about-two__tab-img">
                           <img
-                            src="/resources/about-two-tab-img-2.jpg"
+                            src="/Frame2.png"
                             alt=""
                           />
                         </div>

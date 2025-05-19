@@ -315,7 +315,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .pricing-two__tab-box .pricing-two-tab-buttons .p-tab-btn {
@@ -328,7 +328,7 @@
     position: relative;
     display: block;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     color: var(--crank-black);
     background-color: transparent;
@@ -483,7 +483,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowwrap;
     gap: 15px;
     color: black!important;
 }

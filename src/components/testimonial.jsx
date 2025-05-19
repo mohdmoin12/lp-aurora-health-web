@@ -50,7 +50,7 @@ const Testimonial = () => {
               <div className="item">
                 <div className="testimonial-one__single">
                   <div className="testimonial-one__img">
-                    <img src="/testimonial/testimonial-1-1.jpg" alt="" />
+                    {/* <img src="/testimonial/testimonial-1-1.jpg" alt="" /> */}
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
@@ -76,7 +76,7 @@ const Testimonial = () => {
               <div className="item">
                 <div className="testimonial-one__single">
                   <div className="testimonial-one__img">
-                    <img src="/testimonial/testimonial-1-2.jpg" alt="" />
+                    {/* <img src="/testimonial/testimonial-1-2.jpg" alt="" /> */}
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
@@ -100,7 +100,7 @@ const Testimonial = () => {
               <div className="item">
                 <div className="testimonial-one__single">
                   <div className="testimonial-one__img">
-                    <img src="/testimonial/testimonial-1-2.jpg" alt="" />
+                    {/* <img src="/testimonial/testimonial-1-2.jpg" alt="" /> */}
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
@@ -123,7 +123,7 @@ const Testimonial = () => {
               <div className="item">
                 <div className="testimonial-one__single">
                   <div className="testimonial-one__img">
-                    <img src="/testimonial/testimonial-1-2.jpg" alt="" />
+                    {/* <img src="/testimonial/testimonial-1-2.jpg" alt="" /> */}
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
@@ -146,7 +146,7 @@ const Testimonial = () => {
               <div className="item">
                 <div className="testimonial-one__single">
                   <div className="testimonial-one__img">
-                    <img src="/testimonial/testimonial-1-2.jpg" alt="" />
+                    {/* <img src="/testimonial/testimonial-1-2.jpg" alt="" /> */}
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">

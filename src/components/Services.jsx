@@ -47,7 +47,7 @@ const Services = () => {
       {/*Services Two Single Start*/}
       <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
         <div className="services-two__img">
-          <img src="/team/team-two-img-1.png" alt="" />
+          <img src="/service.jpg" alt="" />
         </div>
       </div>
       {/*Services Two Single End*/}

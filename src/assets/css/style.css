@@ -2796,3 +2796,36 @@ color: black;
   opacity: 1;
 }
 
+.pricing-tabs-container {
+          display: flex;
+          margin-bottom: 20px;
+          
+        }
+        .pricing-tab-btn {
+          flex: 1;
+          padding: 10px 15px;
+          text-align: center;
+          background-color: #f8f9fa;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          white-space: nowrap;
+          position: relative;
+          z-index: 1;
+        }
+        .pricing-tab-btn:first-child {
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+        }
+        .pricing-tab-btn:last-child {
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+        }
+        .pricing-tab-btn.active {
+          background-color: #71D630;
+          color: white;
+          font-weight: bold;
+        }
+        .pricing-tab-btn:not(:first-child):not(:last-child) {
+          border-radius: 0;
+        }

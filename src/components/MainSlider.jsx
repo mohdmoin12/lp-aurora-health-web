@@ -185,7 +185,7 @@ const MainSlider = () => {
                   </div>
                   <div className="main-slider-two__img">
                     <img
-                      src="/resources/main-slider-two-img-1.png"
+                      src="/test.png"
                       alt=""
                     />
                   </div>
@@ -222,7 +222,7 @@ const MainSlider = () => {
                   </div>
                   <div className="main-slider-two__img">
                     <img
-                      src="/resources/main-slider-two-img-2.png"
+                      src="/main2.png"
                       alt=""
                     />
                   </div>
@@ -259,7 +259,7 @@ const MainSlider = () => {
                   </div>
                   <div className="main-slider-two__img">
                     <img
-                      src="/resources/main-slider-two-img-3.png"
+                      src="/main3.png"
                       alt=""
                     />
                   </div>
@@ -273,4 +273,4 @@ const MainSlider = () => {
   );
 };
 
-export default MainSlider;
+export default MainSlider;  
