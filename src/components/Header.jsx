@@ -36,7 +36,7 @@ const Header = () => {
             <div className="main-menu-two__left">
             <div className="main-header-two__logo">
   <a href="index.html">
-    <img src="/resources/Group1.jpg" alt="" style={{ width: '40%' }} />
+    <img src="/resources/logoAB.png" alt="" style={{ width: '40%' }} />
   </a>
 </div>
             </div>

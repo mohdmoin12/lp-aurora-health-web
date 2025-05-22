@@ -1631,7 +1631,7 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 40px 0;
-  background-color: #232323;
+background: linear-gradient(135deg, #000000,#000000);
   border-radius: 45px;
   z-index: 1;
 }

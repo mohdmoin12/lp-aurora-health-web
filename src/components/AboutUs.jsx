@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const AboutUs = () => {
   const [activeTab, setActiveTab] = useState("#consulting");
@@ -16,20 +16,22 @@ const AboutUs = () => {
               <div className="col-xl-6">
                 <div className="section-title text-left sec-title-animation animation-style2">
                   <div className="section-title__tagline-box">
-                    <span className="section-title__tagline text-white ">About Us</span>
+                    <span className="section-title__tagline text-white ">
+                      About Us
+                    </span>
                   </div>
                   <h2 className="section-title__title title-animation text-white">
-
-                    Fast and Reliable Car Care
+                    Reliable Health, Always There
                     <br />
-                    Your Car Our Priority
+                    Your Health, Our Priority
                   </h2>
                 </div>
               </div>
               <div className="col-xl-6">
                 <p className="about-two__text">
-                  Car service is essential for maintaining the performance and
-                  longevity of your vehicle. From oil changes
+                  Health support is essential for maintaining the performance
+                  and longevity of your body. From nutrition to fitness, we’ve
+                  got you covered
                 </p>
               </div>
             </div>
@@ -37,98 +39,106 @@ const AboutUs = () => {
           <div className="about-two__tab-box-inner">
             <div className="about-two__tab-box tabs-box">
               <ul className="tab-buttons clearfix list-unstyled">
-                <li 
-                  onClick={() => handleTabClick("#consulting")} 
-                  className={`tab-btn ${activeTab === "#consulting" ? "active-btn" : ""}`}
+                <li
+                  onClick={() => handleTabClick("#consulting")}
+                  className={`tab-btn ${
+                    activeTab === "#consulting" ? "active-btn" : ""
+                  }`}
                 >
                   <div className="about-two__tab-btn-single">
                     <div
                       className="about-two__shape-1"
                       style={{
-                        backgroundImage: "url(/shapes/about-two-shape-1.png)"
+                        backgroundImage: "url(/shapes/about-two-shape-1.png)",
                       }}
                     />
                     <div className="about-two__tab-btn-top">
                       <div className="icon">
                         <span className="icon-broken-car" />
                       </div>
-                      <h3>Growth Consulting</h3>
+                      <h3>Goal-Driven Plans</h3>
                     </div>
                     <p className="about-two__tab-btn-text">
-                      Car service is essential for maintaining the performance and
-                      longevity
+                      Custom meal plans like keto, low-carb, or high-protein,
+                      designed to match your fitness goals.
                     </p>
                   </div>
                 </li>
-                <li 
-                  onClick={() => handleTabClick("#solutions")} 
-                  className={`tab-btn ${activeTab === "#solutions" ? "active-btn" : ""}`}
+                <li
+                  onClick={() => handleTabClick("#solutions")}
+                  className={`tab-btn ${
+                    activeTab === "#solutions" ? "active-btn" : ""
+                  }`}
                 >
                   <div className="about-two__tab-btn-single">
                     <div
                       className="about-two__shape-1"
                       style={{
-                        backgroundImage: "url(/shapes/about-two-shape-1.png)"
+                        backgroundImage: "url(/shapes/about-two-shape-1.png)",
                       }}
                     />
                     <div className="about-two__tab-btn-top">
                       <div className="icon">
                         <span className="icon-engineer" />
                       </div>
-                      <h3>Profit Max Solutions</h3>
+                      <h3>Allergy-Safe Options</h3>
                     </div>
                     <p className="about-two__tab-btn-text">
-                      Car service is essential for maintaining the performance and
-                      longevity
+                      Easily swap meals and ingredients to avoid allergens,
+                      ensuring safe and enjoyable dining experiences
                     </p>
                   </div>
                 </li>
-                <li 
-                  onClick={() => handleTabClick("#insight")} 
-                  className={`tab-btn ${activeTab === "#insight" ? "active-btn" : ""}`}
+                <li
+                  onClick={() => handleTabClick("#insight")}
+                  className={`tab-btn ${
+                    activeTab === "#insight" ? "active-btn" : ""
+                  }`}
                 >
                   <div className="about-two__tab-btn-single">
                     <div
                       className="about-two__shape-1"
                       style={{
-                        backgroundImage: "url(/shapes/about-two-shape-1.png)"
+                        backgroundImage: "url(/shapes/about-two-shape-1.png)",
                       }}
                     />
                     <div className="about-two__tab-btn-top">
                       <div className="icon">
                         <span className="icon-wheel-2" />
                       </div>
-                      <h3>Insight Consultants</h3>
+                      <h3>Flexible Subscriptions</h3>
                     </div>
                     <p className="about-two__tab-btn-text">
-                      Car service is essential for maintaining the performance and
-                      longevity
+                      Choose weekly, monthly, or 3-month plans with the freedom
+                      to pause, resume, or skip meals.
                     </p>
                   </div>
                 </li>
               </ul>
               <div className="tabs-content">
                 {/* Consulting Tab */}
-                <div className={`tab ${activeTab === "#consulting" ? "active-tab" : ""}`} id="consulting">
+                <div
+                  className={`tab ${
+                    activeTab === "#consulting" ? "active-tab" : ""
+                  }`}
+                  id="consulting"
+                >
                   <div className="tabs-content__inner">
                     <div className="row">
                       <div className="col-xl-6">
                         <div className="about-two__tab-img">
-                          <img
-                            src="/Frame2.png"
-                            alt=""
-                          />
+                          <img src="/Frame2.png" alt="" />
                         </div>
                       </div>
                       <div className="col-xl-6">
                         <div className="about-two__tab-content">
                           <h3 className="about-two__tab-content-title">
-                            Your Trusted Car Provider Keeping Your Vehicle
+                            Personalized Nutrition, Your Wellness Priority
                           </h3>
                           <p className="about-two__tab-content-text">
-                            Car service is essential for maintaining the performance
-                            and longevity of your vehicle. From oil changes Car
-                            service is essential for maintaining
+                            A balanced diet is essential for achieving your
+                            health goals. From weight loss to muscle gain, our
+                            platform crafts meal plans tailored to your needs
                           </p>
                           <div className="about-two__tab-content-points-box">
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -136,13 +146,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Fast and Reliable Car Care</p>
+                                <p>Personalized Plans for Your Health Goals</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Free with Our Services Care</p>
+                                <p>Expert Guidance for Lasting Wellness</p>
                               </li>
                             </ul>
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -150,13 +160,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Top-notch Care for Your Vehicle</p>
+                                <p> Prioritizing Your Nutrition and Fitness</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Expert Service for Your Vehicle</p>
+                                <p>Supportive Care for a Healthier Lifestyle</p>
                               </li>
                             </ul>
                           </div>
@@ -167,26 +177,28 @@ const AboutUs = () => {
                 </div>
 
                 {/* Solutions Tab */}
-                <div className={`tab ${activeTab === "#solutions" ? "active-tab" : ""}`} id="solutions">
+                <div
+                  className={`tab ${
+                    activeTab === "#solutions" ? "active-tab" : ""
+                  }`}
+                  id="solutions"
+                >
                   <div className="tabs-content__inner">
                     <div className="row">
                       <div className="col-xl-6">
                         <div className="about-two__tab-img">
-                          <img
-                            src="/Frame2.png"
-                            alt=""
-                          />
+                          <img src="/Frame2.png" alt="" />
                         </div>
                       </div>
                       <div className="col-xl-6">
                         <div className="about-two__tab-content">
                           <h3 className="about-two__tab-content-title">
-                            Your Trusted Car Provider Keeping Your Vehicle
+                            Personalized Nutrition, Your Wellness Priority
                           </h3>
                           <p className="about-two__tab-content-text">
-                            Car service is essential for maintaining the performance
-                            and longevity of your vehicle. From oil changes Car
-                            service is essential for maintaining
+                            A balanced diet is essential for achieving your
+                            health goals. From weight loss to muscle gain, our
+                            platform crafts meal plans tailored to your needs
                           </p>
                           <div className="about-two__tab-content-points-box">
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -194,13 +206,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Fast and Reliable Car Care</p>
+                                <p>Personalized Plans for Your Health Goals</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Free with Our Services Care</p>
+                                <p>Expert Guidance for Lasting Wellness</p>
                               </li>
                             </ul>
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -208,13 +220,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Top-notch Care for Your Vehicle</p>
+                                <p> Prioritizing Your Nutrition and Fitness</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Expert Service for Your Vehicle</p>
+                                <p>Supportive Care for a Healthier Lifestyle</p>
                               </li>
                             </ul>
                           </div>
@@ -225,7 +237,12 @@ const AboutUs = () => {
                 </div>
 
                 {/* Insight Tab */}
-                <div className={`tab ${activeTab === "#insight" ? "active-tab" : ""}`} id="insight">
+                <div
+                  className={`tab ${
+                    activeTab === "#insight" ? "active-tab" : ""
+                  }`}
+                  id="insight"
+                >
                   <div className="tabs-content__inner">
                     <div className="row">
                       <div className="col-xl-6">
@@ -239,12 +256,12 @@ const AboutUs = () => {
                       <div className="col-xl-6">
                         <div className="about-two__tab-content">
                           <h3 className="about-two__tab-content-title">
-                            Your Trusted Car Provider Keeping Your Vehicle
+                            Personalized Nutrition, Your Wellness Priority
                           </h3>
                           <p className="about-two__tab-content-text">
-                            Car service is essential for maintaining the performance
-                            and longevity of your vehicle. From oil changes Car
-                            service is essential for maintaining
+                            A balanced diet is essential for achieving your
+                            health goals. From weight loss to muscle gain, our
+                            platform crafts meal plans tailored to your needs
                           </p>
                           <div className="about-two__tab-content-points-box">
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -252,13 +269,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Fast and Reliable Car Care</p>
+                                <p>Personalized Plans for Your Health Goals</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Free with Our Services Care</p>
+                                <p>Expert Guidance for Lasting Wellness</p>
                               </li>
                             </ul>
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -266,13 +283,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Top-notch Care for Your Vehicle</p>
+                                <p> Prioritizing Your Nutrition and Fitness</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Expert Service for Your Vehicle</p>
+                                <p>Supportive Care for a Healthier Lifestyle</p>
                               </li>
                             </ul>
                           </div>
