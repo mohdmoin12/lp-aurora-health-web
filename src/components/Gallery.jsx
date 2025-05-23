@@ -695,13 +695,13 @@ const Gallery = () => {
   const secondRowProducts = products.slice(Math.ceil(products.length / 2));
 
   return (
-    <div id="gallery-section" className="overflow-hidden">
+    <div id="our-menu" className="overflow-hidden">
       <section className="gallery-three">
         <div className="gallery-three__wrap">
           <div className="section-title-two text-center sec-title-animation animation-style1">
             <div className="section-title-two__tagline-box justify-content-center">
               <div className="section-title-two__tagline-shape-1" />
-              <span className="section-title-two__tagline">Latest Gallery</span>
+              <span className="section-title-two__tagline">Our menu</span>
               <div className="section-title-two__tagline-shape-1" />
             </div>
             <h2 className="section-title-two__title title-animation">

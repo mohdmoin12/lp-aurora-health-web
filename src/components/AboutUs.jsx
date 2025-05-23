@@ -8,8 +8,8 @@ const AboutUs = () => {
   };
 
   return (
-    <div>
-      <section className="about-two">
+    <div id="About-us">
+      <section   className="about-two">
         <div className="container">
           <div className="about-two__top">
             <div className="row">

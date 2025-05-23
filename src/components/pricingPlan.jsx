@@ -1013,7 +1013,7 @@ const PricingPlan = () => {
         </div>
         
         <div className="pricing-two__btn-box mt-auto pt-3">
-          <a href={`plan-details/${plan.id}`} className="thm-btn w-100 text-center">
+          <a href={"#review"} className="thm-btn w-100 text-center">
             Get Started Now
             <span className="icon-arrow-up-right" />
           </a>
@@ -1023,7 +1023,7 @@ const PricingPlan = () => {
   );
 
   return (
-    <div>
+    <div id="pricing">
       
       
       <section className="pricing-two">

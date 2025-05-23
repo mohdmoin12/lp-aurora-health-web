@@ -28,7 +28,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div>
+    <div  id="testimonials">
       <section className="testimonial-one">
         <div className="testimonial-one__wrap">
           <div className="container">

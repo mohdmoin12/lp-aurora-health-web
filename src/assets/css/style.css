@@ -2829,3 +2829,153 @@ color: black;
         .pricing-tab-btn:not(:first-child):not(:last-child) {
           border-radius: 0;
         }
+
+
+
+
+        
+          @keyframes n-footer-fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          
+          @keyframes n-footer-pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+          }
+          
+          @keyframes n-footer-float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+          }
+          
+          .n-footer-animate-delay-1 { animation-delay: 0.2s; }
+          .n-footer-animate-delay-2 { animation-delay: 0.4s; }
+          .n-footer-animate-delay-3 { animation-delay: 0.6s; }
+          
+          .n-footer-section {
+            animation: n-footer-fadeIn 0.6s ease-out forwards;
+            opacity: 0;
+          }
+          
+          .n-footer-leaf-icon {
+            animation: n-footer-float 3s ease-in-out infinite;
+          }
+          
+          .n-footer-subscribe-btn {
+            transition: all 0.3s ease;
+          }
+          
+          .n-footer-subscribe-btn:hover {
+            animation: n-footer-pulse 1s infinite;
+            box-shadow: 0 0 15px rgba(113, 214, 48, 0.5);
+          }
+          
+          .n-footer-bg {
+            background-color: #2F402F;
+          }
+          
+          .n-footer-wave-separator {
+            background-color: #2F402F;
+            height: 6rem;
+            overflow: hidden;
+          }
+          
+          .n-footer-brand-green {
+            color: #71D630;
+          }
+          
+          .n-footer-social-icon {
+            width: 36px;
+            height: 36px;
+            background-color: #3A4F3A;
+            color: #71D630;
+            transition: all 0.3s ease;
+          }
+          
+          .n-footer-social-icon:hover {
+            background-color: #71D630;
+            color: white;
+          }
+          
+          .n-footer-nav-link-custom {
+            color: #d1d5db;
+            transition: color 0.3s ease;
+            text-decoration: none;
+          }
+          
+          .n-footer-nav-link-custom:hover {
+            color: #71D630;
+          }
+          
+          .n-footer-chevron-arrow {
+            color: #71D630;
+            transition: transform 0.3s ease;
+          }
+          
+          .n-footer-nav-link-custom:hover .n-footer-chevron-arrow {
+            transform: translateX(4px);
+          }
+          
+          .n-footer-contact-item {
+            transition: color 0.3s ease;
+          }
+          
+          .n-footer-contact-item:hover {
+            color: white !important;
+          }
+          
+          .n-footer-contact-item:hover .n-footer-contact-icon {
+            color: white !important;
+          }
+          
+          .n-footer-newsletter-input {
+            background-color: #3A4F3A;
+            border: 1px solid rgba(113, 214, 48, 0.3);
+            color: white;
+          }
+          
+          .n-footer-newsletter-input:focus {
+            border-color: #71D630;
+            box-shadow: 0 0 0 0.25rem rgba(113, 214, 48, 0.25);
+            background-color: #3A4F3A;
+            color: white;
+          }
+          
+          .n-footer-newsletter-input::placeholder {
+            color: #9ca3af;
+          }
+          
+          .n-footer-gradient-btn {
+            background: linear-gradient(to right, #71D630, #5CB130);
+            border: none;
+          }
+          
+          .n-footer-floating-leaf-1 {
+            position: absolute;
+            top: -2.5rem;
+            left: 1.25rem;
+            color: #71D630;
+            opacity: 0.3;
+            font-size: 50px;
+          }
+          
+          .n-footer-floating-leaf-2 {
+            position: absolute;
+            top: 25%;
+            right: 2.5rem;
+            color: #71D630;
+            opacity: 0.2;
+            font-size: 60px;
+          }
+          
+          .n-footer-floating-leaf-3 {
+            position: absolute;
+            bottom: 33%;
+            left: 25%;
+            color: #71D630;
+            opacity: 0.15;
+            font-size: 70px;
+          }
