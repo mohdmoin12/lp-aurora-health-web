@@ -116,7 +116,7 @@ const Services = () => {
             >
               <div className="services-two__single">
                 <div className="services-two__icon">
-                  <span className="icon-gearshift" />
+                  <span className="" />
                 </div>
                 <h3 className="services-two__title">
                   <a href="auto-pro-mechanic-shop.html">Trusted Nutrition</a>
@@ -127,7 +127,7 @@ const Services = () => {
               </div>
               <div className="services-two__single">
                 <div className="services-two__icon">
-                  <span className="icon-wheels" />
+                  <span className="" />
                 </div>
                 <h3 className="services-two__title text-black">
                   <a href="careful-car-service-station.html">
@@ -142,7 +142,7 @@ const Services = () => {
               </div>
               <div className="services-two__single">
                 <div className="services-two__icon">
-                  <span className="icon-engine" />
+                  <span className="" />
                 </div>
                 <h3 className="services-two__title text-black">
                   <a href="engine-diagnostics.html">Simple Tracking</a>
@@ -163,8 +163,8 @@ const Services = () => {
               <div className="services-two__img">
                 <img
                   className="services-two__img"
-                  style={{ marginTop: "251px" }}
-                  src="/service.jpg"
+                  style={{ marginTop: "146px" }}
+                  src="/main33.png"
                   alt="Car Service"
                 />
               </div>
@@ -178,7 +178,7 @@ const Services = () => {
             >
               <div className="services-two__single">
                 <div className="services-two__icon">
-                  <span className="icon-piston" />
+                  <span className="" />
                 </div>
                 <h3 className="services-two__title">
                   <a href="smooth-ride-vehicle-care.html">
@@ -193,7 +193,7 @@ const Services = () => {
               </div>
               <div className="services-two__single">
                 <div className="services-two__icon">
-                  <span className="icon-pressure" />
+                  <span className="" />
                 </div>
                 <h3 className="services-two__title">
                   <a href="elite-auto-services.html">Pause Flexibility</a>

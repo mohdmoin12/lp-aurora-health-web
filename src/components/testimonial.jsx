@@ -54,15 +54,15 @@ const Testimonial = () => {
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
-                      <a href="testimonials.html">Arlene McCoy</a>
+                      <a href="testimonials.html">Fatimah Al-Qahtani</a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                      Seaford & The Grove,SA
+                     Riyadh
                     </p>
                   </div>
                   <p className="testimonial-one__text">
-                    Pop Phones gave me the structure I needed to succeed in
-                    retail. As a first-time business owner, I was impressed by
+                  “Finally, a food delivery service that understands my dietary needs!”
+I have a gluten allergy and used to stress about meals — now I just select my preferences and let the app do the work. Total game changer!by
                 
                   </p>
                   <div className="testimonial-one__quote">
@@ -80,14 +80,13 @@ const Testimonial = () => {
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
-                      <a href="testimonials.html">Chintan Shsh, Franchisee</a>
+                      <a href="testimonials.html">Omar Al-Mutairi</a>
                     </h3>
-                    <p className="testimonial-one__client-text">Parabanks,SA</p>
+                    <p className="testimonial-one__client-text">Jeddah</p>
                   </div>
                   <p className="testimonial-one__text">
-                    I joined Pop Phones with no prior experience in mobile
-                    retail, but the model made everything simple and scalable.
-                   
+                    “Super convenient and truly healthy.”
+I’ve tried a lot of so-called 'healthy' options, but this app delivers real nutrition with great taste. And the ability to reschedule meals is a lifesaver.
                   </p>
                   <div className="testimonial-one__quote">
                     <span className="fas fa-quote-right" />
@@ -104,15 +103,15 @@ const Testimonial = () => {
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
-                      <a href="testimonials.html">Akbar, Franchisee </a>
+                      <a href="testimonials.html">Layla Al-Harbi</a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                      Docklands,VIC
+                      Dammam
                     </p>
                   </div>
                   <p className="testimonial-one__text">
-                    One of the best decisions I’ve made was investing in a Pop
-                    Phones franchise. I’ve always wanted to be my own boss but
+                   “Love the customization and flexibility!”
+Being vegan, I always struggled with meal plans. This app let me pick exactly what I wanted — and skip meals when needed. Highly recommended.
                   
                   </p>
                   <div className="testimonial-one__quote">
@@ -127,16 +126,15 @@ const Testimonial = () => {
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
-                      <a href="testimonials.html">Sohail, Franchisee </a>
+                      <a href="testimonials.html">Abdullah Al-Shehri </a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                      St Agnes & Hollywood,SA
+                      Khobar
                     </p>
                   </div>
                   <p className="testimonial-one__text">
-                    Running a Pop Phones franchise has allowed me to achieve
-                    real work-life balance. The systems are easy to follow, and
-              
+                    “Fresh meals, right on time, every time.”
+The best part? No more worrying about what to eat. Everything is planned around my workout days, and delivery is always on point.
                   </p>
                   <div className="testimonial-one__quote">
                     <span className="fas fa-quote-right" />
@@ -150,15 +148,15 @@ const Testimonial = () => {
                   </div>
                   <div className="testimonial-one__client-info">
                     <h3 className="testimonial-one__client-name">
-                      <a href="testimonials.html">Sharan, Franchisee  </a>
+                      <a href="testimonials.html">Reem Al-Otaibi </a>
                     </h3>
                     <p className="testimonial-one__client-text">
-                    St Agnes & Hollywood,SA
+                    Mecca
                     </p>
                   </div>
                   <p className="testimonial-one__text">
-                    When I opened my Pop Phones store, I didn’t expect such a
-                    smooth onboarding experience. Everything from lease
+                   “Eating healthy has never been this effortless!”
+With my busy work schedule, I barely had time to plan meals. This app made it super simple — just pick, confirm, and enjoy. Total time-saver!
                    
                   </p>
                   <div className="testimonial-one__quote">

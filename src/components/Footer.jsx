@@ -337,31 +337,43 @@ const Footer = () => {
                   <li className="mb-2">
                     <a href="#" className="n-footer-nav-link-custom d-flex align-items-center">
                       <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
-                      Meal Plans
+                      Home
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="n-footer-nav-link-custom d-flex align-items-center">
+                    <a href="#About-us" className="n-footer-nav-link-custom d-flex align-items-center">
                       <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
-                      Nutrition Tracker
+                      About Us
                     </a>
                   </li>
-                  <li className="mb-2">
-                    <a href="#" className="n-footer-nav-link-custom d-flex align-items-center">
+                  {/* <li className="mb-2">
+                    <a href="#About-us" className="n-footer-nav-link-custom d-flex align-items-center">
                       <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
                       Recipe Collections
                     </a>
-                  </li>
+                  </li> */}
                   <li className="mb-2">
-                    <a href="#" className="n-footer-nav-link-custom d-flex align-items-center">
+                    <a href="#our-menu" className="n-footer-nav-link-custom d-flex align-items-center">
                       <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
-                      Dietitian Consultations
+                      Our Menu
                     </a>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="n-footer-nav-link-custom d-flex align-items-center">
+                    <a href="#why-aurora" className="n-footer-nav-link-custom d-flex align-items-center">
                       <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
-                      Wellness Blog
+                      Why Aurora
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                    <a href="#testimonials" className="n-footer-nav-link-custom d-flex align-items-center">
+                      <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
+                      Testimonial
+                    </a>
+                  </li>
+                  <li className="mb-2">
+                    <a href="#pricing" className="n-footer-nav-link-custom d-flex align-items-center">
+                      <i className="fas fa-chevron-right n-footer-chevron-arrow me-2" style={{ fontSize: '0.75rem' }}></i>
+                      Subscription Plan
                     </a>
                   </li>
                 </ul>
@@ -378,25 +390,25 @@ const Footer = () => {
                   <li className="mb-3 d-flex align-items-start n-footer-contact-item">
                     <i className="fas fa-map-marker-alt mt-1 me-3 n-footer-contact-icon" style={{ color: '#71D630' }}></i>
                     <span className="text-light">
-                      123 Organic Way, Greenville, CA 90210
+                     6639 Uthman Bin Affan Rd. - Al Mugharazzat,Saudi Arabia
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-center n-footer-contact-item">
                     <i className="fas fa-phone-alt me-3 n-footer-contact-icon" style={{ color: '#71D630' }}></i>
                     <span className="text-light">
-                      +1 (800) NUT-FOOD
+                     966554772488
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-center n-footer-contact-item">
                     <i className="fas fa-envelope me-3 n-footer-contact-icon" style={{ color: '#71D630' }}></i>
                     <span className="text-light">
-                      support@freshplate.com
+                      auroraapp966@gmail.com
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-center n-footer-contact-item">
                     <i className="fas fa-clock me-3 n-footer-contact-icon" style={{ color: '#71D630' }}></i>
                     <span className="text-light">
-                      Mon-Sun: 7AM-9PM
+                      Mon-Sun: 7AM-10PM
                     </span>
                   </li>
                 </ul>
@@ -404,37 +416,37 @@ const Footer = () => {
             </div>
 
             {/* Newsletter */}
-            <div className="col-lg-3 col-md-6">
-              <div className="n-footer-section n-footer-animate-delay-3">
-                <h5 className="n-footer-brand-green fw-bold mb-3" style={{ letterSpacing: '0.1em' }}>
-                  WELLNESS NEWSLETTER
-                </h5>
-                <p className="text-light mb-3">
-                  Get weekly recipes, nutrition tips, and exclusive offers delivered
-                  to your inbox.
-                </p>
-                <form className="mt-3">
-                  <div className="mb-3">
-                    <input
-                      type="email"
-                      placeholder="Your email address"
-                      required
-                      className="form-control n-footer-newsletter-input"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="btn w-100 n-footer-subscribe-btn n-footer-gradient-btn text-white fw-bold py-2 d-flex align-items-center justify-content-center"
+            <div className="col-lg-6 d-flex flex-column align-items-end ms-auto"  style={{ marginTop: '-246px' }}>
+              <div className="d-flex gap-4 mb-4">
+                {/* App Store Button */}
+                <div className="d-flex flex-column align-items-center">
+                  <a
+                    href="#"
+                    className="app-btn gradient-bg text-white rounded-circle d-flex align-items-center justify-content-center mb-2"
+                    style={{ width: 80, height: 80 }}
                   >
-                    <span>Subscribe</span>
-                    <i className="fas fa-paper-plane ms-3"></i>
-                  </button>
-                </form>
+                    <i className="fab fa-apple fa-2x" />
+                  </a>
+                  <span className="text-white-light small">App Store</span>
+                </div>
+                {/* Google Play Button */}
+                <div className="d-flex flex-column align-items-center">
+                  <a
+                    href="#"
+                    className="app-btn gradient-bg text-white rounded-circle d-flex align-items-center justify-content-center mb-2"
+                    style={{ width: 80, height: 80 }}
+                  >
+                    <i className="fab fa-google-play fa-2x" />
+                  </a>
+                  <span className="text-white-light small">Google Play</span>
+                </div>
               </div>
+              <div className="divider" />
+              <p className="text-white-lighter text-end mb-3">
+                Available on both platforms
+              </p>
             </div>
           </div>
-
-          {/* Bottom Bar */}
           <div className="border-top mt-5 pt-4" style={{ borderColor: '#3A4F3A !important' }}>
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
@@ -462,11 +474,12 @@ const Footer = () => {
           </div>
 
           <div className="text-center mt-4">
-            <p className="text-white small fst-italic" style={{ color: 'rgba(113, 214, 48, 0.7) !important' }}>
-              <i className="fas fa-heartbeat me-1"></i> These statements have not been
+            {/* <p className="text-white small fst-italic" style={{ color: 'rgba(113, 214, 48, 0.7) !important' }}>
+              <i className="fas fa-heartbeat me-1"></i> These statements have not beenimport Testimonial from './testimonial';
+
               evaluated by the FDA. Our products are not intended to diagnose,
               treat, cure, or prevent any disease.
-            </p>
+            </p> */}
           </div>
         </div>
       </footer>

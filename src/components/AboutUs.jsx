@@ -206,13 +206,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Personalized Plans for Your Health Goals</p>
+                                <p>Swap with a Tap</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Expert Guidance for Lasting Wellness</p>
+                                <p>Allergy Alerts Built-In</p>
                               </li>
                             </ul>
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -220,13 +220,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p> Prioritizing Your Nutrition and Fitness</p>
+                                <p> Personalized Plates</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Supportive Care for a Healthier Lifestyle</p>
+                                <p>Flexible & Safe Choices</p>
                               </li>
                             </ul>
                           </div>
@@ -248,7 +248,7 @@ const AboutUs = () => {
                       <div className="col-xl-6">
                         <div className="about-two__tab-img">
                           <img
-                            src="/resources/about-two-tab-img-3.jpg"
+                            src="/Frame2.png"
                             alt=""
                           />
                         </div>
@@ -269,13 +269,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Personalized Plans for Your Health Goals</p>
+                                <p>Pause Anytime </p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Expert Guidance for Lasting Wellness</p>
+                                <p>Plans That Fit You </p>
                               </li>
                             </ul>
                             <ul className="about-two__tab-content-points list-unstyled">
@@ -283,13 +283,13 @@ const AboutUs = () => {
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p> Prioritizing Your Nutrition and Fitness</p>
+                                <p> Skip with Ease</p>
                               </li>
                               <li>
                                 <div className="icon">
                                   <span className="icon-double-arrow-right" />
                                 </div>
-                                <p>Supportive Care for a Healthier Lifestyle</p>
+                                <p>No Lock-Ins</p>
                               </li>
                             </ul>
                           </div>

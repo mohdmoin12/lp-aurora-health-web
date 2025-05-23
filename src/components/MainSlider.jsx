@@ -301,34 +301,34 @@ const MainSlider = () => {
               <div className="container">
                 <div className="main-slider-two__content">
                   <h2 className="main-slider-two__title">
-                    Professional Care <br />
-                    for Your Car <br />
-                    Keeping You on
+                    Clean Choices <br />
+                    on your plate <br />
+                    nourishing you well
                   </h2>
                   <p className="main-slider-two__text">
-                    Car service is essential for maintaining performance and
-                    longevity of <br />
-                    your vehicle. From oil changes Car service is essential
+                   Tailored meal plans designed for your goals, tastes, and
+                     <br />
+                   lifestyle — delivered fresh, every day.
                   </p>
                   <div className="main-slider-two__btn">
-                    <a href="contact.html" className="thm-btn">
+                    <a href="#review" className="thm-btn">
                       Get Started
                       <span className="icon-arrow-up-right" />
                     </a>
                   </div>
                   <div className="main-slider-two__img-box" >
-                    <div className="main-slider-two__shape-1">
+                    {/* <div className="main-slider-two__shape-1">
                       <img
                         src="/shapes/main-slider-two-shape-1.png"
                         alt=""
                         className="rotate-me"
                       />
-                    </div>
+                    </div> */}
                     <div className="main-slider-two__img">
                       <img
                         src="/Frame.png"
                         alt=""
-                        style={{height: '605px', objectFit: 'cover', paddingRight: '58px'}}
+                        style={{height: '605px', objectFit: 'cover'}}
                       />
                     </div>
                   </div>
@@ -339,14 +339,14 @@ const MainSlider = () => {
               <div className="container">
                 <div className="main-slider-two__content">
                   <h2 className="main-slider-two__title">
-                    Professional Care <br />
-                    for Your Car <br />
-                    Keeping You on
+                    Custom Wellness <br />
+                    in your meals <br />
+                   guiding you daily
                   </h2>
                   <p className="main-slider-two__text">
-                    Car service is essential for maintaining performance and
-                    longevity of <br />
-                    your vehicle. From oil changes Car service is essential
+                   Choose your diet, schedule your meals, and let us handle
+                     <br />
+                   the rest — health has never been this easy
                   </p>
                   <div className="main-slider-two__btn">
                     <a href="contact.html" className="thm-btn">
@@ -355,18 +355,18 @@ const MainSlider = () => {
                     </a>
                   </div>
                   <div className="main-slider-two__img-box" >
-                    <div className="main-slider-two__shape-1">
+                    {/* <div className="main-slider-two__shape-1">
                       <img
                         src="/shapes/main-slider-two-shape-1.png"
                         alt=""
                         className="rotate-me"
                       />
-                    </div>
+                    </div> */}
                     <div className="main-slider-two__img">
                       <img
-                        src="/main2.png"
+                        src="/slider2.jpg"
                         alt=""
-                        style={{height: '605px', objectFit: 'cover',paddingRight: '58px'}}
+                        style={{height: '605px', objectFit: 'cover'}}
                       />
                     </div>
                   </div>
@@ -377,14 +377,14 @@ const MainSlider = () => {
               <div className="container">
                 <div className="main-slider-two__content">
                   <h2 className="main-slider-two__title">
-                    Professional Care <br />
-                    for Your Car <br />
-                    Keeping You on
+                    Wholesome Foods <br />
+                    in your plan <br />
+                    making you better
                   </h2>
                   <p className="main-slider-two__text">
-                    Car service is essential for maintaining performance and
-                    longevity of <br />
-                    your vehicle. From oil changes Car service is essential
+                  Nutritious meals crafted for your city, delivered to your
+                    <br />
+                   doorstep — always on time, always healthy.
                   </p>
                   <div className="main-slider-two__btn">
                     <a href="contact.html" className="thm-btn">
@@ -393,18 +393,18 @@ const MainSlider = () => {
                     </a>
                   </div>
                   <div className="main-slider-two__img-box" >
-                    <div className="main-slider-two__shape-1">
+                    {/* <div className="main-slider-two__shape-1">
                       <img
                         src="/shapes/main-slider-two-shape-1.png"
                         alt=""
                         className="rotate-me"
                       />
-                    </div>
+                    </div> */}
                     <div className="main-slider-two__img">
                       <img
-                        src="/main3.png"
+                        src="/slider3.jpg"
                         alt=""
-                        style={{height: '605px', objectFit: 'cover',paddingRight: '58px'}}
+                        style={{height: '605px', objectFit: 'cover'}}
                       />
                     </div>
                   </div>

@@ -399,20 +399,20 @@ const Counter = () => {
               <li className="wow fadeInLeft" data-wow-delay="100ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box flex items-baseline justify-center gap-1 text-black font-bold text-3xl">
-                    <h3 className="odometer" data-count="18">0</h3>
+                    <h3 className="odometer" data-count="6">0</h3>
                     <span>+</span>
                   </div>
-                  <p className="counter-one__text text-sm text-center desk">Stores Nationwide</p>
-                  <p className="counter-one__text text-sm text-center mob">Stores<br/>Nationwide</p>
+                  <p className="counter-one__text text-sm text-center desk">Pricing Plans</p>
+                  <p className="counter-one__text text-sm text-center mob">Pricing<br/>Plans</p>
                 </div>
               </li>
               <li className="wow fadeInLeft" data-wow-delay="200ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box flex items-baseline justify-center gap-1 text-black font-bold text-3xl">
-                    <h3 className="odometer" data-count="10">0</h3>
+                    <h3 className="odometer" data-count="4">0</h3>
                     <span>+</span>
                   </div>
-                  <p className="counter-one__text text-sm text-center">Years Industry Expertise</p>
+                  <p className="counter-one__text text-sm text-center">Years Industry Experience</p>
                 </div>
               </li>
               <li className="wow fadeInRight" data-wow-delay="300ms">

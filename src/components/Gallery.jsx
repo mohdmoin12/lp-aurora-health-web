@@ -6,7 +6,7 @@
 
 // const Gallery = () => {
 //   const swiperElRef = useRef(null);
-  
+
 //   useEffect(() => {
 //     // Initialize horizontal sliding animations for desktop view
 //     const initializeAnimations = () => {
@@ -19,11 +19,11 @@
 //           const clone = item.cloneNode(true);
 //           firstRowContainer.appendChild(clone);
 //         });
-        
+
 //         // Apply sliding animation
 //         firstRowContainer.classList.add('animate-slide-left');
 //       }
-      
+
 //       // Second row animation - sliding right to left
 //       const secondRowContainer = document.querySelector('.marquee_mode-3');
 //       if (secondRowContainer) {
@@ -33,7 +33,7 @@
 //           const clone = item.cloneNode(true);
 //           secondRowContainer.appendChild(clone);
 //         });
-        
+
 //         // Apply sliding animation
 //         secondRowContainer.classList.add('animate-slide-right');
 //       }
@@ -41,7 +41,7 @@
 
 //     // Call animation initialization for desktop view
 //     initializeAnimations();
-    
+
 //     // Initialize Swiper for mobile view
 //     if (swiperElRef.current) {
 //       // Swiper parameters
@@ -58,10 +58,10 @@
 //           disableOnInteraction: false,
 //         }
 //       };
-      
+
 //       // Assign all parameters to Swiper element
 //       Object.assign(swiperElRef.current, swiperParams);
-      
+
 //       // Initialize Swiper
 //       swiperElRef.current.initialize();
 //     }
@@ -82,7 +82,7 @@
 //               Drive Safe Stay Secure
 //             </h2>
 //           </div>
-          
+
 //           {/* Desktop Gallery with Sliding Animations */}
 //           <div className="d-none d-md-block">
 //             {/* First row - slides from left to right */}
@@ -128,7 +128,7 @@
 //                 </div>
 //               </li>
 //             </ul>
-            
+
 //             {/* Second row - slides from right to left */}
 //             <ul className="gallery-three__list gallery-three__list--two list-unstyled marquee_mode-3 d-flex overflow-hidden">
 //               <li>
@@ -173,7 +173,7 @@
 //               </li>
 //             </ul>
 //           </div>
-          
+
 //           {/* Mobile Gallery with Swiper */}
 //           <div className="d-md-none">
 //             <swiper-container ref={swiperElRef} init="false" class="gallery-swiper">
@@ -267,11 +267,6 @@
 
 // export default Gallery;
 
-
-
-
-
-
 // import React, { useEffect, useRef, useState } from "react";
 // import { register } from 'swiper/element/bundle';
 
@@ -290,7 +285,7 @@
 //       try {
 //         const response = await fetch('https://aurora.sabtrek.com/api/get_all_products');
 //         const data = await response.json();
-        
+
 //         if (data.status === 1) {
 //           // Transform object to array with only image and name fields
 //           const productsArray = Object.values(data.data).map(product => ({
@@ -326,11 +321,11 @@
 //           const clone = item.cloneNode(true);
 //           firstRowContainer.appendChild(clone);
 //         });
-        
+
 //         // Apply sliding animation
 //         firstRowContainer.classList.add('animate-slide-left');
 //       }
-      
+
 //       // Second row animation - sliding right to left
 //       const secondRowContainer = document.querySelector('.marquee_mode-3');
 //       if (secondRowContainer) {
@@ -340,7 +335,7 @@
 //           const clone = item.cloneNode(true);
 //           secondRowContainer.appendChild(clone);
 //         });
-        
+
 //         // Apply sliding animation
 //         secondRowContainer.classList.add('animate-slide-right');
 //       }
@@ -348,7 +343,7 @@
 
 //     // Call animation initialization for desktop view
 //     initializeAnimations();
-    
+
 //     // Initialize Swiper for mobile view
 //     if (swiperElRef.current) {
 //       // Swiper parameters
@@ -365,10 +360,10 @@
 //           disableOnInteraction: false,
 //         }
 //       };
-      
+
 //       // Assign all parameters to Swiper element
 //       Object.assign(swiperElRef.current, swiperParams);
-      
+
 //       // Initialize Swiper
 //       swiperElRef.current.initialize();
 //     }
@@ -431,7 +426,7 @@
 //               Drive Safe Stay Secure
 //             </h2>
 //           </div>
-          
+
 //           {/* Desktop Gallery with Sliding Animations */}
 //           <div className="d-none d-md-block">
 //             {/* First row - slides from left to right */}
@@ -439,17 +434,17 @@
 //               {firstRowProducts.map((product, index) => (
 //                 <li key={`desktop-1-${index}`}>
 //                   <div className="gallery-three__img">
-//                     <img 
-//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
-//                       alt={product.name} 
+//                     <img
+//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
+//                       alt={product.name}
 //                       onError={(e) => {
-//                         e.target.onerror = null; 
+//                         e.target.onerror = null;
 //                         e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
 //                       }}
 //                     />
 //                     <div className="gallery-three__icon">
-//                       <a 
-//                         className="img-popup" 
+//                       <a
+//                         className="img-popup"
 //                         href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
 //                       >
 //                         <span className="icon-arrow-up-right-two" />
@@ -459,23 +454,23 @@
 //                 </li>
 //               ))}
 //             </ul>
-            
+
 //             {/* Second row - slides from right to left */}
 //             <ul className="gallery-three__list gallery-three__list--two list-unstyled marquee_mode-3 d-flex overflow-hidden">
 //               {secondRowProducts.map((product, index) => (
 //                 <li key={`desktop-2-${index}`}>
 //                   <div className="gallery-three__img">
-//                     <img 
-//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
+//                     <img
+//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
 //                       alt={product.name}
 //                       onError={(e) => {
-//                         e.target.onerror = null; 
+//                         e.target.onerror = null;
 //                         e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
 //                       }}
 //                     />
 //                     <div className="gallery-three__icon">
-//                       <a 
-//                         className="img-popup" 
+//                       <a
+//                         className="img-popup"
 //                         href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
 //                       >
 //                         <span className="icon-arrow-up-right-two" />
@@ -486,25 +481,25 @@
 //               ))}
 //             </ul>
 //           </div>
-          
+
 //           {/* Mobile Gallery with Swiper */}
 //           <div className="d-md-none">
 //             <swiper-container ref={swiperElRef} init="false" class="gallery-swiper">
 //               {products.map((product, index) => (
 //                 <swiper-slide key={`mobile-${index}`}>
 //                   <div className="gallery-three__img">
-//                     <img 
-//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
-//                       className="d-block w-100" 
+//                     <img
+//                       src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
+//                       className="d-block w-100"
 //                       alt={product.name}
 //                       onError={(e) => {
-//                         e.target.onerror = null; 
+//                         e.target.onerror = null;
 //                         e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
 //                       }}
 //                     />
 //                     <div className="gallery-three__icon">
-//                       <a 
-//                         className="img-popup" 
+//                       <a
+//                         className="img-popup"
 //                         href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
 //                       >
 //                         <span className="icon-arrow-up-right-two" />
@@ -523,9 +518,8 @@
 
 // export default Gallery;
 
-
 import React, { useEffect, useRef, useState } from "react";
-import { register } from 'swiper/element/bundle';
+import { register } from "swiper/element/bundle";
 
 // Register Swiper custom elements
 register();
@@ -540,19 +534,21 @@ const Gallery = () => {
     // Fetch products from API
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://aurora.sabtrek.com/api/get_all_products');
+        const response = await fetch(
+          "https://aurora.sabtrek.com/api/get_all_products"
+        );
         const data = await response.json();
-        
+
         if (data.status === 1) {
           // Transform object to array with only image and name fields
-          const productsArray = Object.values(data.data).map(product => ({
+          const productsArray = Object.values(data.data).map((product) => ({
             image: product.image,
-            name: product.name
+            name: product.name,
           }));
           console.log("prodtArray", productsArray);
           setProducts(productsArray);
         } else {
-          setError(data.message || 'Failed to fetch products');
+          setError(data.message || "Failed to fetch products");
         }
       } catch (err) {
         setError(err.message);
@@ -567,9 +563,9 @@ const Gallery = () => {
   useEffect(() => {
     // Only initialize animations once products are loaded
     if (products.length === 0) return;
-    
+
     // Animation CSS setup
-    const styleSheet = document.createElement('style');
+    const styleSheet = document.createElement("style");
     styleSheet.textContent = `
       @keyframes slideLeft {
         0% { transform: translateX(0); }
@@ -594,31 +590,31 @@ const Gallery = () => {
     // Initialize horizontal sliding animations for desktop view
     const initializeAnimations = () => {
       // First row animation - sliding right to left
-      const firstRowContainer = document.querySelector('.marquee_mode-2');
+      const firstRowContainer = document.querySelector(".marquee_mode-2");
       if (firstRowContainer) {
         // Clone gallery items to create infinite scroll effect
         const originalItems = Array.from(firstRowContainer.children);
-        originalItems.forEach(item => {
+        originalItems.forEach((item) => {
           const clone = item.cloneNode(true);
           firstRowContainer.appendChild(clone);
         });
-        
+
         // Apply sliding animation
-        firstRowContainer.classList.add('animate-slide-left');
+        firstRowContainer.classList.add("animate-slide-left");
       }
-      
+
       // Second row animation - sliding left to right
-      const secondRowContainer = document.querySelector('.marquee_mode-3');
+      const secondRowContainer = document.querySelector(".marquee_mode-3");
       if (secondRowContainer) {
         // Clone gallery items to create infinite scroll effect
         const originalItems = Array.from(secondRowContainer.children);
-        originalItems.forEach(item => {
+        originalItems.forEach((item) => {
           const clone = item.cloneNode(true);
           secondRowContainer.appendChild(clone);
         });
-        
+
         // Apply sliding animation
-        secondRowContainer.classList.add('animate-slide-right');
+        secondRowContainer.classList.add("animate-slide-right");
       }
     };
 
@@ -626,7 +622,7 @@ const Gallery = () => {
     setTimeout(() => {
       initializeAnimations();
     }, 500);
-    
+
     // Initialize Swiper for mobile view
     if (swiperElRef.current) {
       // Swiper parameters
@@ -641,12 +637,12 @@ const Gallery = () => {
         autoplay: {
           delay: 3000,
           disableOnInteraction: false,
-        }
+        },
       };
-      
+
       // Assign all parameters to Swiper element
       Object.assign(swiperElRef.current, swiperParams);
-      
+
       // Initialize Swiper
       swiperElRef.current.initialize();
     }
@@ -705,32 +701,50 @@ const Gallery = () => {
               <div className="section-title-two__tagline-shape-1" />
             </div>
             <h2 className="section-title-two__title title-animation">
-              Quality Service Every Time <br />
-              Drive Safe Stay Secure
+              Delicious Meals Every Time
+              <br />
+              Live Well Eat Right
             </h2>
           </div>
-          
+
           {/* Desktop Gallery with Sliding Animations */}
           <div className="d-none d-md-block">
             {/* First row - slides from right to left */}
-            <div className="position-relative overflow-hidden" style={{ width: '100%' }}>
-              <ul className="gallery-three__list list-unstyled marquee_mode-2 d-flex" 
-                  style={{ width: 'fit-content', flexShrink: 0 }}>
+            <div
+              className="position-relative overflow-hidden"
+              style={{ width: "100%" }}
+            >
+              <ul
+                className="gallery-three__list list-unstyled marquee_mode-2 d-flex"
+                style={{ width: "fit-content", flexShrink: 0 }}
+              >
                 {firstRowProducts.map((product, index) => (
-                  <li key={`desktop-1-${index}`} style={{ display: 'inline-block', width: '300px', margin: '0 10px' }}>
+                  <li
+                    key={`desktop-1-${index}`}
+                    style={{
+                      display: "inline-block",
+                      width: "300px",
+                      margin: "0 10px",
+                    }}
+                  >
                     <div className="gallery-three__img">
-                      <img 
-                        src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
-                        alt={product.name} 
-                        style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+                      <img
+                        src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
+                        alt={product.name}
+                        style={{
+                          width: "100%",
+                          height: "200px",
+                          objectFit: "cover",
+                        }}
                         onError={(e) => {
-                          e.target.onerror = null; 
-                          e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
+                          e.target.onerror = null;
+                          e.target.src =
+                            "https://via.placeholder.com/300x200?text=Image+Not+Available";
                         }}
                       />
                       <div className="gallery-three__icon">
-                        <a 
-                          className="img-popup" 
+                        <a
+                          className="img-popup"
                           href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
                         >
                           <span className="icon-arrow-up-right-two" />
@@ -741,26 +755,43 @@ const Gallery = () => {
                 ))}
               </ul>
             </div>
-            
+
             {/* Second row - slides from left to right */}
-            <div className="position-relative overflow-hidden mt-4" style={{ width: '100%' }}>
-              <ul className="gallery-three__list gallery-three__list--two list-unstyled marquee_mode-3 d-flex" 
-                  style={{ width: 'fit-content', flexShrink: 0 }}>
+            <div
+              className="position-relative overflow-hidden mt-4"
+              style={{ width: "100%" }}
+            >
+              <ul
+                className="gallery-three__list gallery-three__list--two list-unstyled marquee_mode-3 d-flex"
+                style={{ width: "fit-content", flexShrink: 0 }}
+              >
                 {secondRowProducts.map((product, index) => (
-                  <li key={`desktop-2-${index}`} style={{ display: 'inline-block', width: '300px', margin: '0 10px' }}>
+                  <li
+                    key={`desktop-2-${index}`}
+                    style={{
+                      display: "inline-block",
+                      width: "300px",
+                      margin: "0 10px",
+                    }}
+                  >
                     <div className="gallery-three__img">
-                      <img 
-                        src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
+                      <img
+                        src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
                         alt={product.name}
-                        style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+                        style={{
+                          width: "100%",
+                          height: "200px",
+                          objectFit: "cover",
+                        }}
                         onError={(e) => {
-                          e.target.onerror = null; 
-                          e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
+                          e.target.onerror = null;
+                          e.target.src =
+                            "https://via.placeholder.com/300x200?text=Image+Not+Available";
                         }}
                       />
                       <div className="gallery-three__icon">
-                        <a 
-                          className="img-popup" 
+                        <a
+                          className="img-popup"
                           href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
                         >
                           <span className="icon-arrow-up-right-two" />
@@ -772,25 +803,30 @@ const Gallery = () => {
               </ul>
             </div>
           </div>
-          
+
           {/* Mobile Gallery with Swiper */}
           <div className="d-md-none">
-            <swiper-container ref={swiperElRef} init="false" class="gallery-swiper">
+            <swiper-container
+              ref={swiperElRef}
+              init="false"
+              class="gallery-swiper"
+            >
               {products.map((product, index) => (
                 <swiper-slide key={`mobile-${index}`}>
                   <div className="gallery-three__img">
-                    <img 
-                      src={`https://aurora.sabtrek.com/public/uploads/${product.image}`} 
-                      className="d-block w-100" 
+                    <img
+                      src={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
+                      className="d-block w-100"
                       alt={product.name}
                       onError={(e) => {
-                        e.target.onerror = null; 
-                        e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Available';
+                        e.target.onerror = null;
+                        e.target.src =
+                          "https://via.placeholder.com/300x200?text=Image+Not+Available";
                       }}
                     />
                     <div className="gallery-three__icon">
-                      <a 
-                        className="img-popup" 
+                      <a
+                        className="img-popup"
                         href={`https://aurora.sabtrek.com/public/uploads/${product.image}`}
                       >
                         <span className="icon-arrow-up-right-two" />
