@@ -292,7 +292,7 @@ const MainSlider = () => {
             margin={10}
             nav={false}
             autoplay={true}
-            autoplayTimeout={8000}
+            autoplayTimeout={5000}
             items={1}
             dots={true}
             loop={true}
@@ -303,7 +303,7 @@ const MainSlider = () => {
                   <h2 className="main-slider-two__title">
                     Clean Choices <br />
                     on your plate <br />
-                    nourishing you well
+                     you well
                   </h2>
                   <p className="main-slider-two__text">
                    Tailored meal plans designed for your goals, tastes, and
@@ -326,7 +326,7 @@ const MainSlider = () => {
                     </div> */}
                     <div className="main-slider-two__img">
                       <img
-                        src="/Frame.png"
+                        src="/slider8.jpg"
                         alt=""
                         style={{height: '605px', objectFit: 'cover'}}
                       />

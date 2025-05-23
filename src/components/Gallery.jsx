@@ -695,9 +695,9 @@ const Gallery = () => {
       <section className="gallery-three">
         <div className="gallery-three__wrap">
           <div className="section-title-two text-center sec-title-animation animation-style1">
-            <div className="section-title-two__tagline-box justify-content-center">
+            <div className="section-title-two__tagline-box justify-content-center text-white">
               <div className="section-title-two__tagline-shape-1" />
-              <span className="section-title-two__tagline">Our menu</span>
+              <span className="section-title-two__tagline text-white">Our menu</span>
               <div className="section-title-two__tagline-shape-1" />
             </div>
             <h2 className="section-title-two__title title-animation">

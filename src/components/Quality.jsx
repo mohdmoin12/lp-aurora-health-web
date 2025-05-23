@@ -418,10 +418,10 @@ const Counter = () => {
               <li className="wow fadeInRight" data-wow-delay="300ms">
                 <div className="counter-one__single">
                   <div className="counter-one__count-box flex items-baseline justify-center gap-1 text-black font-bold text-3xl">
-                    <h3 className="odometer" data-count="5">0</h3>
+                    <h3 className="odometer" data-count="1">0</h3>
                     <span>L+</span>
                   </div>
-                  <p className="counter-one__text text-sm text-center desk">Devices Sold</p>
+                  <p className="counter-one__text text-sm text-center desk">Food Deliveries</p>
                   <p className="counter-one__text text-sm text-center mob">Devices<br/>Sold</p>
                 </div>
               </li>

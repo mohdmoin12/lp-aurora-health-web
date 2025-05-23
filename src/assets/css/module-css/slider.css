@@ -537,7 +537,7 @@
     background-color: rgba(var(--crank-white-rgb), 0);
     border: 2px solid var(--crank-white);
 }
-
+/* 
 .main-slider-two .owl-theme .owl-nav {
     position: absolute;
     top: 46%;
@@ -589,7 +589,7 @@
 .main-slider-two .owl-theme .owl-nav .owl-prev {
     transform: rotate(180deg);
     margin-bottom: 10px;
-}
+} */
 
 
 /*--------------------------------------------------------------
