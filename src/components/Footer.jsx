@@ -310,20 +310,21 @@ const Footer = () => {
                   Nourish your body, fuel your life. Discover delicious, healthy meals
                   tailored to your wellness goals.
                 </p>
-                <div className="d-flex gap-2 pt-2">
-                  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
-                    <i className="fab fa-tiktok"></i>
-                  </a>
-                </div>
+               <div className="d-flex gap-2 pt-2">
+  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+    <i className="fab fa-linkedin"></i>
+  </a>
+  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+    <i className="fab fa-youtube"></i>
+  </a>
+  <a href="#" className="n-footer-social-icon rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+    <i className="fab fa-facebook"></i>
+  </a>
+</div>
+
               </div>
             </div>
 

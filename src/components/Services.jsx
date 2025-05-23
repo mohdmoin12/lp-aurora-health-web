@@ -103,9 +103,9 @@ const Services = () => {
               </span>
             </div>
             <h2 className="section-title__title title-animation text-white">
-              The Car Doctor Service Easy Drive
+              Because your health deserves meals as 
               <br />
-              Maintenance Center
+              thoughtfully crafted as your goals
             </h2>
           </div>
           <div className="row">
