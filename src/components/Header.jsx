@@ -310,7 +310,7 @@ const Header = () => {
                       </div>
                       <div className="main-menu-two__call-content">
                         <h5 className="main-menu-two__call-number">
-                          <a href="tel:23645689622">+236 (456) 896 22</a>
+                          <a href="tel:23645689622">+966554772488</a>
                         </h5>
                       </div>
                     </div>
